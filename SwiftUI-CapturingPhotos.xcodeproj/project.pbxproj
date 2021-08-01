@@ -16,6 +16,8 @@
 		2D5B64D826B63630006773D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5B64D626B63630006773D6 /* LaunchScreen.storyboard */; };
 		2D5B64E326B63630006773D6 /* SwiftUI_CapturingPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B64E226B63630006773D6 /* SwiftUI_CapturingPhotosTests.swift */; };
 		2D5B64EE26B63630006773D6 /* SwiftUI_CapturingPhotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B64ED26B63630006773D6 /* SwiftUI_CapturingPhotosUITests.swift */; };
+		2D5B650026B6383E006773D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B64FF26B6383E006773D6 /* ImagePicker.swift */; };
+		2D5B650826B64C7D006773D6 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B650726B64C7D006773D6 /* PhotoCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2D5B64E926B63630006773D6 /* SwiftUI-CapturingPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-CapturingPhotosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5B64ED26B63630006773D6 /* SwiftUI_CapturingPhotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CapturingPhotosUITests.swift; sourceTree = "<group>"; };
 		2D5B64EF26B63630006773D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5B64FF26B6383E006773D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2D5B650726B64C7D006773D6 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 		2D5B64C726B6362E006773D6 /* SwiftUI-CapturingPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				2D5B64FE26B63821006773D6 /* CustomClasses */,
 				2D5B64C826B6362E006773D6 /* AppDelegate.swift */,
 				2D5B64CA26B6362E006773D6 /* SceneDelegate.swift */,
+				2D5B650726B64C7D006773D6 /* PhotoCaptureView.swift */,
 				2D5B64CC26B6362E006773D6 /* ContentView.swift */,
 				2D5B64D126B63630006773D6 /* Assets.xcassets */,
 				2D5B64D626B63630006773D6 /* LaunchScreen.storyboard */,
@@ -137,6 +143,14 @@
 				2D5B64EF26B63630006773D6 /* Info.plist */,
 			);
 			path = "SwiftUI-CapturingPhotosUITests";
+			sourceTree = "<group>";
+		};
+		2D5B64FE26B63821006773D6 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2D5B64FF26B6383E006773D6 /* ImagePicker.swift */,
+			);
+			path = CustomClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +285,9 @@
 			files = (
 				2D5B64D026B6362E006773D6 /* SwiftUI_CapturingPhotos.xcdatamodeld in Sources */,
 				2D5B64C926B6362E006773D6 /* AppDelegate.swift in Sources */,
+				2D5B650026B6383E006773D6 /* ImagePicker.swift in Sources */,
 				2D5B64CB26B6362E006773D6 /* SceneDelegate.swift in Sources */,
+				2D5B650826B64C7D006773D6 /* PhotoCaptureView.swift in Sources */,
 				2D5B64CD26B6362E006773D6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
